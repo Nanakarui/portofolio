@@ -27,11 +27,20 @@
             padding: 20px;
         }
 
+        .medsos-container {
+            display: flex;
+            align-items: center;
+        }
+
         .medsos {
             width: 35px;
             height: 35px;
             margin-right: 10px;
             margin-left: 25px;
+            vertical-align: middle;
+        }
+
+        .medsos a {
             vertical-align: middle;
         }
 
@@ -55,8 +64,8 @@
         .member-img {
             width: 100%;
             height: 250px;
-            object-fit: cover;
             object-position: center top;
+            object-fit: contain;
         }
 
         .contact-container {
@@ -115,7 +124,7 @@
         <h1 class="display-3 text-uppercase fw-bold h2-custom ">Nanakarui</h1>
         <hr>
         <p class="display-6 text-uppercase fw-bold">About</p>
-        <p class="artikel">Nanakarui Idol: Cahaya Baru dari Sukabumi <br><br>
+        <p class="artikel medsos-container">Nanakarui Idol: Cahaya Baru dari Sukabumi <br><br>
 
             Dalam dunia gemerlap, idol adalah berlian yang
             bersinar dengan 7 talenta luar biasa. Mereka memancarkan keindahan, kreativitas, pesona, kecerdasan,
@@ -185,7 +194,7 @@
 
         <p class="display-6 text-uppercase fw-bold">Member</p>
         <div class="row">
-            <div class="col-md-4 member-card">
+            <div class="col-md-4 member-card mx-auto">
                 <div class="card">
                     <img src="img/bea.jpg" alt="Beatrix" class="card-img-top member-img"
                         style="object-position: center ;">
@@ -198,18 +207,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 member-card">
-                <div class="card">
-                    <img src="img/all.jpg" alt="nanakarui" class="card-img-top member-img"
-                        style="object-position: center top;">
-
-                    <div class="card-body">
-                        <p class="text-center fw-bold"><br> ALL <br> MEMBER <br> <br></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 member-card">
+            <div class="col-md-4 member-card mx-auto">
                 <div class="card">
                     <img src="img/elen.jpeg" alt="Elenor" class="card-img-top member-img"
                         style="object-position: center top;">
